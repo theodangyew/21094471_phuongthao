@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fffcf2;
+            margin-top: 150px;
+        }
+        h1 {margin-bottom: 30px;}
+        
+        .special {
+            color: red;
+            font-weight: bold;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .icon {
+            font-size: 50px;
+            color: pink;
+            margin-bottom: 30px;
+        }
+        
+        .input {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            padding: 20px 20px;
+            width: 300px;
+            font-size: 16px;
+            color: gray;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .box {
+            background-color: pink;
+            color: white;
+            padding: 20px 40px;
+            display: inline-block;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="special">BÀI 4:</h1>
+    <i class="fas fa-envelope icon"></i>
+    <h1>Gửi lời mời tham gia sự kiện</h1>
+    <p>Hãy nhập e-mail người mà bạn muốn gửi lời mời.</p>
+    <input class="input" type="email" placeholder="Enter Email"> <br>
+    <div class="box">GỬI LỜI MỜI!</div>
+</body>
+</html>

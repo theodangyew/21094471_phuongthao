@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+  <style>
+      body{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 160px;
+      }
+      
+      h1{
+      color: red;
+      font-weight: bold;
+      position: absolute;
+      top: 0;
+      left: 0;
+      }
+    
+    .special{font-size: 50px;}
+    
+    .blue{
+      font-weight: bold;
+      color: blue;
+    }
+
+    .box {
+      background-color: #1b263b;
+      color: white;
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .male-icon {
+      color: #0096c7;
+      margin-left: 10px;
+      font-size: 25px;
+    }
+    
+    .female-icon {
+      color: #ffb3c6;
+      margin-left: 10px;
+      font-size: 25px;
+    }
+  </style>
+  
+</head>
+<body>
+    <h1>BÀI 1:</h1>
+    <img style="display: block; margin: auto;" width="200" 
+         src="https://cdn.glitch.global/625996cf-5615-4ae1-8ce5-5547f6b7430f/Logo%20Cty%20Viettien.svg?v=1709306267686">
+         
+    <p class="special">Công Ty Cổ Phần May <span class="blue">Việt Tiến</span></p>
+    <p>Chuyên cung cấp các loại trang phục công sở Nam, Nữ</p>
+    
+    <div class="box">SẢN PHẨM NAM  
+        <i class="fas fa-male male-icon"></i>
+    </div>
+  
+    <div class="box">SẢN PHẨM NỮ
+        <i class="fas fa-female female-icon"></i>
+    </div>
+      
+</body>
+</html>

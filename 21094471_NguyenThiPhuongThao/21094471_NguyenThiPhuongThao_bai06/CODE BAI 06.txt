@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://cdn.glitch.global/2a88044e-a3b8-44a2-bba9-d5c955b32702/b%C3%A0i%206%20-%20universe.png?v=1709374611678');
+            background-size: cover;
+            margin-top: 200pt;
+        }
+        
+        h1{
+            color: red;
+            font-weight: bold;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .column {
+            display: inline-block;
+            width: 24%;
+            padding: 5px;
+        }
+        
+        .icon {
+            font-size: 50px;
+            margin-bottom: 5px;
+        }
+        
+        .number {
+            font-size: 50px;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        p {
+          color: yellow;
+          font-size: 20px;
+        }
+      
+        .grad-icon {color: lime;}
+        .house-icon {color: pink;}
+        .bulb-icon {color: red;}
+        .globe-icon {color: blue;}
+    
+  </style>
+
+  </head>
+<body>
+    <h1>BÀI 6:</h1>  
+  
+    <div class="column">
+        <i class="fas fa-graduation-cap icon grad-icon"></i>
+        <p class="number">20000</p>
+        <p>Sinh viên theo học</p>
+    </div>
+    
+    <div class="column">
+        <i class="fas fa-home icon house-icon"></i>
+        <p class="number">92%</p>
+        <p>Sinh viên làm đúng việc</p>
+    </div>
+    
+    <div class="column">
+        <i class="fas fa-lightbulb icon bulb-icon"></i>
+        <p class="number">586</p>
+        <p>Bài báo khoa học</p>
+    </div>
+    
+    <div class="column">
+        <i class="fas fa-globe icon globe-icon"></i>
+        <p class="number">18</p>
+        <p>Giải thưởng quốc tế</p>
+    </div>
+
+</body>
+</html>
